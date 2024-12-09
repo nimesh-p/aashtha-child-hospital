@@ -1149,7 +1149,6 @@ body{
 	top:0;
 	height:100%;
 	width:100%;
-	background:rebeccapurple;
 	opacity:0;
 	visibility:hidden;
 	-webkit-transition:all 0.4s ease;
@@ -4176,6 +4175,24 @@ body{
     width: 100%;
     background: rebeccapurple;
     opacity: 0.5;
+}
+.owl-carousel .single-pf {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 440px; /* Set the width for each image box */
+    height: 540px; /* Set the height for each image box */
+    margin: 5px; /* Small spacing between items */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    border: 1px solid #ccc; /* Optional border for visual appeal */
+    border-radius: 8px; /* Optional rounded corners */
+    background-color: #f9f9f9; /* Optional background color */
+}
+
+.owl-carousel .single-pf img {
+    width: 100%; /* Ensure image covers the full width */
+    height: 100%; /* Ensure image covers the full height */
+    object-fit: cover; /* Maintain aspect ratio while covering the box */
 }
 /*=========================
 	End Footer CSS
