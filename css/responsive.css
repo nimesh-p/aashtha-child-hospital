@@ -575,7 +575,7 @@ Version:	1.1
 	height: 380px;
 }
 .schedule {
-	background: #fff;
+	/* background: #fff; */
 	margin: 0;
 	padding: 0;
 	height: auto;
@@ -1062,7 +1062,7 @@ Version:	1.1
 	height: 380px;
 }
 .schedule {
-	background: #fff;
+	/* background: #fff; */
 	margin: 0;
 	padding: 0;
 	height: auto;
@@ -1085,7 +1085,7 @@ Version:	1.1
 	top:0;
 	height:100%;
 	width:100%;
-	background:#fff;
+	/* background:#fff; */
 	opacity:0.5;
 }
 .slider .single-slider h1 {
